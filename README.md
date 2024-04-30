@@ -4,7 +4,7 @@ This repository contains a MATLAB implementation of the Cheon-Kim-Kim-Song (CKKS
 
 CCKS allows us to perform computations on vectors of complex (and real) values. CKKS uses approximate arithmetic instead of exact arithmetic, in the sense that once we finish computation we might get a slightly different result than if we did the computation directly. This means that if you encrypt 2 and 3, add their ciphertexts, and decrypt you might get something like 4.99 or 5.01 but not 5.
 
-![CKKS](G:\My Drive\_PhD Research\Disseration\LWE Playground\MATLAB RLWE\CKKS\ckks-matlab\ckks.png)
+![CKKS](https://github.com/tycho-bro-hey/ckks-matlab/blob/main/ckks.png)
 
 The figure above illustrates a high-level view of CKKS.  The message,$m$, a vector of values that we wish to perform computations on, is first encoded into , which is the plaintext polynomial.  Thereafter, it is encrypted using a public key.
 
